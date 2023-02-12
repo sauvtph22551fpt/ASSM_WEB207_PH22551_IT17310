@@ -10,13 +10,13 @@ app.config(function ($routeProvider) {
         .when('/trangchu', {
             templateUrl: './pages/trangchu.html',
         })
-        .when('/profile', {
+        .when('/info', {
             templateUrl: './pages/info.html',
         })
-        .when('/store', {
+        .when('/qlcuahang', {
             templateUrl: './pages/quanlycuahang.html',
         })
-        .when('/add', {
+        .when('/cuahang', {
             templateUrl: './pages/cuahang.html',
         })
         .when('/404', {
